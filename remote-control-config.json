@@ -1,1 +1,1 @@
-{"cmd":"start","targetDevice":"","controlledDevices":{}}
+{"cmd": "start", "targetDevice": "", "controlledDevices": {"x03": "wait", "x17": "wait", "x32": "wait", "x33": "wait"}}
