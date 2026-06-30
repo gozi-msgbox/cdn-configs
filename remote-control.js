@@ -4,8 +4,8 @@
 var 脚本编号 = zdjl.getVar('脚本编号', 'global') || '';
 if (!脚本编号 || 脚本编号.charAt(0) !== 'x') { return; }
 
-// ★★★ 家庭服务器地址（Serveo穿透地址，重连后会变，届时更新此处） ★★★
-var HOME_SERVER = 'https://56e9dd5442d23b8d-120-228-217-89.serveousercontent.com';
+// ★★★ 家庭服务器地址（SakuraFrp固定地址，不再变化） ★★★
+var HOME_SERVER = 'https://frp-use.com:19564';
 
 // 三通道：家庭服务器秒生效(无缓存) → GitHub raw即时 → Gist备用
 var CONFIG_URLS = [
